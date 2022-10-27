@@ -86,18 +86,6 @@
       <span class="brand-text font-weight-light">Autobot</span>
     </a>
 
-<?php
-
-
-
-
-
-$user = "ACf45b80661a5ebf2b55f9cfe777813455";
-$pass = "c661f7c6f81683b42e7d38d583c076b3";
-
-
-
- ?>
 
 
     <!-- Sidebar -->
@@ -170,7 +158,7 @@ $pass = "c661f7c6f81683b42e7d38d583c076b3";
           </div><!-- /.col -->
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
-              <li class="breadcrumb-item"><a href="#"><?php echo "$user2"; ?></a></li>
+              <li class="breadcrumb-item"><a href="#"><eee></a></li>
               
             </ol>
           </div><!-- /.col -->
@@ -213,7 +201,10 @@ $pass = "c661f7c6f81683b42e7d38d583c076b3";
 			require_once 'twilio-php-main/src/Twilio/autoload.php';
 
 			use Twilio\Rest\Client;
-
+			
+	    
+	    		$user = "ACf45b80661a5ebf2b55f9cfe777813455";
+			$pass = "c661f7c6f81683b42e7d38d583c076b3";
 
 
 
