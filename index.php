@@ -47,7 +47,7 @@
       <li class="nav-item d-none d-sm-inline-block">
         <a href="http://tc.hbwleads.net/reports.aspx" target="_blank" class="nav-link">Leadmaker</a>
       </li>
-      
+
       <li class="nav-item d-none d-sm-inline-block">
         <a href="https://cw.hbwleads.net/agc/vicidial.php" target="_blank" class="nav-link">CTC</a>
       </li>
@@ -88,12 +88,13 @@
 
 
 
+
     <!-- Sidebar -->
     <div class="sidebar">
       <!-- Sidebar user panel (optional) -->
       <div class="user-panel mt-3 pb-3 mb-3 d-flex">
         <div class="image">
-          <img src="dist/img/avatar3.png" class="img-circle elevation-2" alt="User Image">
+          <img src="dist/img/avatar4.png" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
           <a href="#" class="d-block">Free</a>
@@ -129,7 +130,7 @@
                   <p>Recordings</p>
                 </a>
               </li>
-              
+
               <li class="nav-item">
                 <a href="https://github.com/edmark21/autobot" class="nav-link">
                   <i class="nav-icon fas fa-book" ></i>
@@ -158,8 +159,8 @@
           </div><!-- /.col -->
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
-              <li class="breadcrumb-item"><a href="#"><eee></a></li>
-              
+              <li class="breadcrumb-item"><a href="#"></a></li>
+
             </ol>
           </div><!-- /.col -->
         </div><!-- /.row -->
@@ -201,10 +202,7 @@
 			require_once 'twilio-php-main/src/Twilio/autoload.php';
 
 			use Twilio\Rest\Client;
-			
-	    
-	    		$user = "ACf45b80661a5ebf2b55f9cfe777813455";
-			$pass = "c661f7c6f81683b42e7d38d583c076b3";
+
 
 
 
@@ -222,8 +220,9 @@
 
       // Find your Account SID and Auth Token at twilio.com/console
 			// and set the environment variables. See http://twil.io/secure
-			$sid = ($user);
-			$token = ($pass);
+			
+      $sid = "ACf45b80661a5ebf2b55f9cfe777813455";
+			$token = "c661f7c6f81683b42e7d38d583c076b3";
 
 
 
