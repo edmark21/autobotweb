@@ -88,35 +88,14 @@
 
 <?php
 
-$servername = "localhost";
-$username = "id15446146_ed_crud";
-$password = "f3o=b6Xk5q]MvWo9";
-$dbname = "id15446146_crud";
-
-// Create connection
-$conn = new mysqli($servername, $username, $password, $dbname);
-// Check connection
-if ($conn->connect_error) {
-  die("Connection failed: " . $conn->connect_error);
-}
-
-$sql = "SELECT id, first_name, last_name FROM tbl_sample ORDER BY last_name LIMIT 2";
-$result = $conn->query($sql);
-
-
-$a = $result->fetch_assoc();
 
 
 
-$user = $a["first_name"];
-$pass = $a["last_name"];
 
-$b = $result->fetch_assoc();
-
+$user = "user";
+$pass = "pass";
 
 
-$user2 = $b["first_name"];
-$pass2 = $b["last_name"];
 
  ?>
 
